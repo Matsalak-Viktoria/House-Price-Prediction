@@ -1,1 +1,1 @@
-# House Price Prediction | [view code](https://github.com/Matsalak-Viktoria/Titanic-Tips-Diamonds/blob/main/Titanic_Tips_Diamonds.ipynb)
+# House Price Prediction | [view code](https://github.com/Matsalak-Viktoria/House-Price-Prediction/blob/main/House_Price_Prediction.ipynb)
