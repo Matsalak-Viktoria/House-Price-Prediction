@@ -9,6 +9,10 @@ The project focuses on the following prediction task:
 - House Price Prediction – Predicting residential property prices based on numerical and categorical house characteristics.
 
 ## Objectives
+The main objectives of this project are:
+- Build a machine learning pipeline for house price prediction using the Ames Housing dataset.
+- Investigate how feature engineering affects the performance of a Lasso Regression model.
+- Analyze the experimental results by comparing model performance before and after feature engineering.
 
 ## Dataset
 - **SalePrice**: - The property's sale price in dollars. This is the target variable that you're trying to predict.
