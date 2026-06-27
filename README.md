@@ -165,7 +165,7 @@ These error values indicate that the model is capable of capturing the main rela
 
 Overall, the model successfully handled the task: it provides reasonably accurate predictions and can be used for approximate house price estimation. However, to achieve higher prediction accuracy, it would be advisable to test more complex algorithms and expand the feature set.
 
-![Plot](Pred_vs_True_Before.jpg)
+![Plot](Pred_vs_True_Before.png)
 
 ### Plot Analysis:
 The plot shows that the model predicts prices quite well in the mid-range ($100k–$300k); however, it tends to underestimate predictions for high-end homes (>$400k). This indicates the model's limited ability to capture extreme values, which is typical for linear models.
@@ -179,7 +179,7 @@ After adding new features (feature engineering), the mean absolute error (MAE) d
 
 Overall, the engineered features helped the model better capture the key patterns between the features and the target variable, although its robustness to outliers decreased. This impact on RMSE highlights the need for further feature selection and potentially outlier handling to improve the model's stability.
 
-![Plot](Pred_vs_True_After.jpg)
+![Plot](Pred_vs_True_After.png)
 
 ### Plot Analysis:
 The plot shows that after adding new features, the model maintains a fairly high prediction accuracy in the mid-price range. Most predictions are close to the actual values, indicating that the model correctly captures the key relationships between the house characteristics and its price. At the same time, for high-end properties, the model tends to underestimate predicted prices, which may be due to outliers or the limitations of the linear model.
