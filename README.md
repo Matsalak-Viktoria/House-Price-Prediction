@@ -10,6 +10,7 @@ The project focuses on the following prediction task:
 
 ## Objectives
 The main objectives of this project are:
+- Perform Exploratory Data Analysis (EDA) to understand feature distributions and relationships with the target variable.
 - Build a machine learning pipeline for house price prediction using the Ames Housing dataset.
 - Investigate how feature engineering affects the performance of a Lasso Regression model.
 - Analyze the experimental results by comparing model performance before and after feature engineering.
