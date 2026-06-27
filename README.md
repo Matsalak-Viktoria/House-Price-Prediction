@@ -98,14 +98,31 @@ The main objectives of this project are:
 - **SaleCondition**: Condition of sale.
 
 ## Workflow
+The project workflow includes:
+1. Exploratory Data Analysis (EDA)  
+2. Feature Selection
+3. Model Training and Evaluation (before feature engineering)
+   - Train/Test split
+   - Pipeline Setup
+   - Cross-Validation with GridSearchCV
+     - Data Preprocessing (Imputation, Encoding, Scaling)
+     - Lasso Regression Model Training
+     - Hyperparameter Optimization
+   - Prediction on Unseen Test Data
+   - Model Evaluation
+4. Feature Engineering
+5. Model Re-training and Re-evaluation (after feature engineering)
+6. Result Analysis
+   - Comparison of Model Performance Before and After Feature Engineering
+   - Optimal Approach Selection
 
 ## Technologies
 - Python
- - Pandas
- - NumPy
- - Scikit-learn
- - Matplotlib
- - Seaborn
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
 
 ## Methods
 
