@@ -125,5 +125,30 @@ The project workflow includes:
 - Seaborn
 
 ## Methods
+### Data Preprocessing
+
+**Numerical features**:
+- Missing value imputation (Median)
+- Feature scaling (StandardScaler)
+
+**Categorical features**:
+- Most frequent value imputation
+- One-Hot Encoding
+- OrdinalEncoder
+
+### Machine Learning Model
+- Lasso
+
+**Hyperparameters optimized**:
+- alpha
+
+### Validation Strategy
+**Nested Cross-Validation**:
+- Outer CV for robust model evaluation
+- Inner CV with GridSearchCV for hyperparameter optimization
+
+### Evaluation Metrics
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
 
 ## Results
