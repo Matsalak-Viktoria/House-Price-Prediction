@@ -158,8 +158,8 @@ The project workflow includes:
 
 ### Metric Analysis:
 The Lasso Regression model performed quite well in predicting house prices. After tuning the optimal value of the regularization hyperparameter (alpha = 0.001), the metrics obtained on the test set were as follows:
-- MAE ≈ 19,400 — on average, the model's predictions are off by approximately 19 thousand dollars;
-- RMSE ≈ 27,300 — the average deviation of predictions from actual prices is about 27 thousand dollars.
+- MAE ≈ 19,400 - on average, the model's predictions are off by approximately 19 thousand dollars;
+- RMSE ≈ 27,300 - the average deviation of predictions from actual prices is about 27 thousand dollars.
 
 These error values indicate that the model is capable of capturing the main relationships between the features and house prices; however, predictions can still deviate significantly from actual values. This is due to both the high variability in housing prices (different neighborhoods, quality, and additional factors) and the limited set of features used in the model.
 
