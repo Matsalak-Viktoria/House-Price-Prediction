@@ -170,7 +170,7 @@ Overall, the model successfully handled the task: it provides reasonably accurat
 ### Plot Analysis:
 The plot shows that the model predicts prices quite well in the mid-range ($100k–$300k); however, it tends to underestimate predictions for high-end homes (>$400k). This indicates the model's limited ability to capture extreme values, which is typical for linear models.
 
-### Model performance after feature engineering:
+### Model Performance After Feature Engineering:
 - MAE:&ensp;19315
 - RMSE: 31349
 
