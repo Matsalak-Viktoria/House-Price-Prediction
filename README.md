@@ -152,10 +152,24 @@ The project workflow includes:
 - RMSE (Root Mean Squared Error)
 
 ## Results
-Model performance before feature engineering:
+### Model Performance Before Feature Engineering:
 - MAE:&ensp;19407
 - RMSE: 27304
 
-Model performance after feature engineering:
+### Metric Analysis:
+The Lasso Regression model performed quite well in predicting house prices. After tuning the optimal value of the regularization hyperparameter (alpha = 0.001), the metrics obtained on the test set were as follows:
+- MAE ≈ 19,400 — on average, the model's predictions are off by approximately 19 thousand dollars;
+- RMSE ≈ 27,300 — the average deviation of predictions from actual prices is about 27 thousand dollars.
+
+These error values indicate that the model is capable of capturing the main relationships between the features and house prices; however, predictions can still deviate significantly from actual values. This is due to both the high variability in housing prices (different neighborhoods, quality, and additional factors) and the limited set of features used in the model.
+
+Overall, the model successfully handled the task: it provides reasonably accurate predictions and can be used for approximate house price estimation. However, to achieve higher prediction accuracy, it would be advisable to test more complex algorithms and expand the feature set.
+
+![Plot](Tip_size_metrics.jpg)
+
+### Plot Analysis:
+The plot shows that the model predicts prices quite well in the mid-range ($100k–$300k); however, it tends to underestimate predictions for high-end homes (>$400k). This indicates the model's limited ability to capture extreme values, which is typical for linear models.
+
+**Model performance after feature engineering**:
 - MAE:&ensp;19315
 - RMSE: 31349
