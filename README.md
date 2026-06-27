@@ -152,3 +152,10 @@ The project workflow includes:
 - RMSE (Root Mean Squared Error)
 
 ## Results
+Model performance before feature engineering:
+- MAE:&ensp;19407
+- RMSE: 27304
+
+Model performance after feature engineering:
+- MAE:&ensp;19315
+- RMSE: 31349
