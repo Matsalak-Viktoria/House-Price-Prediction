@@ -100,6 +100,12 @@ The main objectives of this project are:
 ## Workflow
 
 ## Technologies
+- Python
+ - Pandas
+ - NumPy
+ - Scikit-learn
+ - Matplotlib
+ - Seaborn
 
 ## Methods
 
