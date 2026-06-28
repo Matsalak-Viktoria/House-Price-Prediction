@@ -101,20 +101,19 @@ The main objectives of this project are:
 The project workflow includes:
 1. Exploratory Data Analysis (EDA)  
 2. Feature Selection
-3. Model Training and Evaluation (before feature engineering)
+3. Model Training and Evaluation on Original Features
    - Train/Test split
    - Pipeline Setup
    - Cross-Validation with GridSearchCV
      - Data Preprocessing (Imputation, Encoding, Scaling)
      - Lasso Regression Model Training
-     - Hyperparameter Optimization
+     - Best Hyperparameter Selection
    - Prediction on Unseen Test Data
    - Model Evaluation
 4. Feature Engineering
-5. Model Re-training and Re-evaluation (after feature engineering)
+5. Model Re-training and Evaluation on Engineered Features
 6. Result Analysis
    - Comparison of Model Performance Before and After Feature Engineering
-   - Optimal Approach Selection
 
 ## Technologies
 - Python
@@ -137,15 +136,17 @@ The project workflow includes:
 - OrdinalEncoder
 
 ### Machine Learning Model
-- Lasso
+- Lasso Regression
 
 **Hyperparameters optimized**:
-- alpha
+- Regularization strength (alpha)
 
 ### Validation Strategy
-**Nested Cross-Validation**:
-- Outer CV for robust model evaluation
-- Inner CV with GridSearchCV for hyperparameter optimization
+**Train-Test Split + GridSearchCV**:
+- Train/Test split for final model evaluation
+- GridSearchCV for hyperparameter optimization
+
+### Feature Engineering
 
 ### Evaluation Metrics
 - MAE (Mean Absolute Error)
