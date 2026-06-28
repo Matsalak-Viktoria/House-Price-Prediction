@@ -144,9 +144,12 @@ The project workflow includes:
 ### Validation Strategy
 **Train-Test Split + GridSearchCV**:
 - Train/Test split for final model evaluation
-- GridSearchCV for hyperparameter optimization
+- GridSearchCV with 5-Fold Cross-Validation for hyperparameter optimization
 
 ### Feature Engineering
+- Feature Transformation (Log Transform)
+- Feature Generation (Interaction Features)
+- Binary indicator features
 
 ### Evaluation Metrics
 - MAE (Mean Absolute Error)
