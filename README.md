@@ -147,10 +147,10 @@ The project workflow includes:
 - GridSearchCV with 5-Fold Cross-Validation for hyperparameter optimization
 
 ### Feature Engineering
-- Feature Generation (Time-based features)  
+- Feature Generation (Time-based Features)  
 - Feature Transformation (Log Transformation)  
-- Feature Encoding (Binary Indicator Features)  
-
+- Binary Feature Creation (Indicator Features)
+  
 ### Evaluation Metrics
 - MAE (Mean Absolute Error)
 - RMSE (Root Mean Squared Error)
