@@ -147,9 +147,9 @@ The project workflow includes:
 - GridSearchCV with 5-Fold Cross-Validation for hyperparameter optimization
 
 ### Feature Engineering
-- Feature Transformation (Log Transform)
-- Feature Generation (Interaction Features)
-- Binary indicator features
+- Feature Generation (Time-based features)  
+- Feature Transformation (Log Transformation)  
+- Feature Encoding (Binary Indicator Features)  
 
 ### Evaluation Metrics
 - MAE (Mean Absolute Error)
