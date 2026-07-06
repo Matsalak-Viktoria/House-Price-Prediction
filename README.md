@@ -168,6 +168,7 @@ These error values indicate that the model is capable of capturing the main rela
 
 Overall, the model successfully handled the task and provides reasonably accurate predictions that can be used for approximate house price estimation. However, to achieve higher prediction accuracy, it would be advisable to test more complex algorithms and expand the feature set.
 
+### Prediction Results:
 ![Plot](Pred_vs_True_Before.png)
 
 ### Plot Analysis:
@@ -182,6 +183,7 @@ After adding new features (feature engineering), the mean absolute error (MAE) d
 
 Overall, feature engineering had a mixed impact on model performance. The slight decrease in MAE indicates that the engineered features improved prediction accuracy for most properties. However, the increase in RMSE suggests that the model became less robust to larger prediction errors for properties with uncommon characteristics. This indicates that while the new features captured some additional patterns in the data, further feature refinement or outlier handling may be needed to improve overall model stability.
 
+### Prediction Results:
 ![Plot](Pred_vs_True_After.png)
 
 ### Plot Analysis:
