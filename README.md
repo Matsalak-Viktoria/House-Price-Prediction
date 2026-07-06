@@ -161,13 +161,12 @@ The project workflow includes:
 
 ### Metric Analysis:
 The Lasso Regression model performed quite well in predicting house prices. After tuning the optimal value of the regularization hyperparameter (alpha = 0.001), the metrics obtained on the test set were as follows:
-- MAE ≈ 19,400 - on average, the model's predictions are off by approximately 19 thousand dollars;
-- RMSE ≈ 27,300 - the average deviation of predictions from actual prices is about 27 thousand dollars.
+- MAE ≈ 19,400 - on average, the model's predictions are off by approximately 19 thousand dollars, which corresponds to about 11% of the average house price in the dataset ($180,921);
+- RMSE ≈ 27,300 - the difference between RMSE and MAE suggests that the model performs well on the majority of observations, while prediction errors become larger for less common property types.
 
-These error values indicate that the model is capable of capturing the main relationships between the features and house prices; however, predictions can still deviate significantly from actual values. This is due to both the high variability in housing prices (different neighborhoods, quality, and additional factors) and the limited set of features used in the model.
+These error values indicate that the model is capable of capturing the main relationships between the features and house prices; however, predictions can still deviate significantly from actual values. This can be explained by the high variability in housing prices, caused by differences in neighborhoods, house quality, and other additional factors, as well as by the limited set of features used in the model.
 
-Overall, the model successfully handled the task: it provides reasonably accurate predictions and can be used for approximate house price estimation. However, to achieve higher prediction accuracy, it would be advisable to test more complex algorithms and expand the feature set.
-
+Overall, the model successfully handled the task and provides reasonably accurate predictions that can be used for approximate house price estimation. However, to achieve higher prediction accuracy, it would be advisable to test more complex algorithms and expand the feature set.
 ![Plot](Pred_vs_True_Before.png)
 
 ### Plot Analysis:
@@ -180,7 +179,7 @@ The plot shows that the model predicts prices quite well in the mid-range ($100k
 ### Metric Analysis:
 After adding new features (feature engineering), the mean absolute error (MAE) decreased from 19,408 to 19,315, indicating a slight improvement in prediction accuracy. However, the RMSE value increased from 27,304 to 31,349, meaning the model became slightly worse at handling rare large errors.
 
-Overall, the engineered features helped the model better capture the key patterns between the features and the target variable, although its robustness to outliers decreased. This impact on RMSE highlights the need for further feature selection and potentially outlier handling to improve the model's stability.
+Overall, feature engineering had a mixed impact on model performance. The slight decrease in MAE indicates that the engineered features improved prediction accuracy for most properties. However, the increase in RMSE suggests that the model became less robust to larger prediction errors for properties with uncommon characteristics. This indicates that while the new features captured some additional patterns in the data, further feature refinement or outlier handling may be needed to improve overall model stability.
 
 ![Plot](Pred_vs_True_After.png)
 
