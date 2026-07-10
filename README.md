@@ -1,4 +1,4 @@
-# House Price Prediction | [Kaggle link](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview) | [view code](https://github.com/Matsalak-Viktoria/House-Price-Prediction/blob/main/House_Price_Prediction.ipynb)
+# House Price Prediction | [Kaggle Link](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview) | [View Code](https://github.com/Matsalak-Viktoria/House-Price-Prediction/blob/main/House_Price_Prediction.ipynb)
 
 ## Overview
 This project explores the implementation and evaluation of a machine learning pipeline for predicting house prices using the Ames Housing Dataset from Kaggle.
