@@ -166,7 +166,7 @@ The Lasso Regression model performed quite well in predicting house prices. Afte
 
 These error values indicate that the model is capable of capturing the main relationships between the features and house prices; however, predictions can still deviate significantly from actual values. This can be explained by the high variability in housing prices, caused by differences in neighborhoods, house quality, and other additional factors, as well as by the limited set of features used in the model.
 
-Overall, the model successfully handled the task and provides reasonably accurate predictions that can be used for approximate house price estimation. However, to achieve higher prediction accuracy, it would be advisable to test more complex algorithms and expand the feature set.
+Overall, the model successfully handled the task and produced reasonably accurate predictions that can be used for approximate house price estimation. However, to achieve higher prediction accuracy, it would be advisable to test more complex algorithms and expand the feature set.
 
 ### Comparison of Actual and Predicted Prices (Before Feature Engineering):
 ![Plot](Pred_vs_True_Before.png)
