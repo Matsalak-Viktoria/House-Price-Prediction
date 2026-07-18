@@ -161,7 +161,7 @@ The project workflow includes:
 
 ### Metric Analysis:
 The Lasso Regression model performed quite well in predicting house prices. After tuning the optimal value of the regularization hyperparameter (alpha = 0.001), the metrics obtained on the test set were as follows:
-- MAE ≈ 19,400 - on average, the model's predictions are off by approximately 19 thousand dollars, which corresponds to about 11% of the average house price in the dataset ($180,921);
+- MAE ≈ 19,400 - on average, the model's predictions are off by approximately 19 thousand dollars, which corresponds to about 11% of the average house price in the dataset (180,921 USD);
 - RMSE ≈ 27,300 - the difference between RMSE and MAE suggests that the model performs well on the majority of observations, while prediction errors become larger for less common property types.
 
 These error values indicate that the model is capable of capturing the main relationships between the features and house prices; however, predictions can still deviate significantly from actual values. This can be explained by the high variability in housing prices, caused by differences in neighborhoods, house quality, and other additional factors, as well as by the limited set of features used in the model.
@@ -172,7 +172,7 @@ Overall, the model successfully handled the task and produced reasonably accurat
 ![Plot](Pred_vs_True_Before.png)
 
 ### Plot Analysis:
-The plot shows that the model predicts prices quite well in the mid-range ($100k–$300k); however, it tends to underestimate predictions for high-end homes (>$400k). This indicates the model's limited ability to capture extreme values, which is typical for linear models.
+The plot shows that the model predicts prices quite well in the mid-range (100k-300k USD); however, it tends to underestimate predictions for high-end homes (>400k USD). This indicates the model's limited ability to capture extreme values, which is typical for linear models.
 
 ### Model Performance After Feature Engineering:
 - MAE:&ensp;19315
