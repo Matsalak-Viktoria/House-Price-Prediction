@@ -6,7 +6,7 @@ This project explores the implementation and evaluation of a machine learning pi
 The main goal of the project is not only to build a predictive regression model, but also to compare Lasso Regression performance before and after applying feature engineering techniques.
 
 The project focuses on the following prediction task:
-- House Price Prediction – Predicting residential property prices based on numerical and categorical house characteristics.
+- House Price Prediction - Predicting residential property prices based on numerical and categorical house characteristics.
 
 ## Objectives
 The main objectives of this project are:
