@@ -16,7 +16,7 @@ The main objectives of this project are:
 - Analyze the experimental results by comparing model performance before and after feature engineering.
 
 ## Dataset
-- **SalePrice**: - The property's sale price in dollars. This is the target variable that you're trying to predict.
+- **SalePrice**: The property's sale price in dollars. This is the target variable that you're trying to predict.
 - **MSSubClass**: The building class.
 - **MSZoning**: The general zoning classification.
 - **LotFrontage**: Linear feet of street connected to property.
