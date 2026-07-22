@@ -103,7 +103,7 @@ The project workflow includes:
 2. Feature Selection
 3. Model Training and Evaluation on Original Features
    - Train/Test Split
-   - Pipeline Setup
+   - Model Training Pipeline Setup
    - Cross-Validation with GridSearchCV
      - Data Preprocessing (Imputation, Encoding, Scaling)
      - Lasso Regression Model Training
