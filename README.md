@@ -102,7 +102,7 @@ The project workflow includes:
 1. Exploratory Data Analysis (EDA)  
 2. Feature Selection
 3. Model Training and Evaluation on Original Features
-   - Train/Test split
+   - Train/Test Split
    - Pipeline Setup
    - Cross-Validation with GridSearchCV
      - Data Preprocessing (Imputation, Encoding, Scaling)
